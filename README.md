@@ -173,7 +173,7 @@ QLoRA 的核心原理包括：
 
 1. **量化**：将 32 位浮点参数压缩为 4 位整数，大幅减少内存使用。
    
-   数学表示：\[Q(x) = \text{round}(x / \text{scale}) \times \text{scale}\]
+   数学表示：$Q(x) = \text{round}(x / \text{scale}) \times \text{scale}$
 
 2. **低秩适应（LoRA）**：对于权重矩阵 W，LoRA 添加一个低秩更新：
    
